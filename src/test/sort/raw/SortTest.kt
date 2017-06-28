@@ -29,6 +29,6 @@ abstract class SortTest {
 
         Assert.assertTrue(TestApi.isSorted(algo.sorting()))
 
-        TestApi.printTime(algo, TimeUnit.SECONDS)
+        TestApi.printTime(algo, TimeUnit.MILLISECONDS)
     }
 }
